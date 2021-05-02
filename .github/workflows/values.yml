@@ -2,7 +2,7 @@ name: GitHub Values
 on:
   push: 
     branches:
-      dev
+      master
 env:
   IMAGE_NAME: custom
 jobs:
