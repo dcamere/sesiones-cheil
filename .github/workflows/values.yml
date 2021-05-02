@@ -1,0 +1,10 @@
+name: GitHub Actions Demo
+on:
+  push: 
+    branches:
+      dev
+jobs:
+  Explore-Github-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Iniciando despliegue"
