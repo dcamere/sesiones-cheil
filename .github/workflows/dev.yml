@@ -20,3 +20,6 @@ jobs:
       - run: echo "This job's status is ${{ job.status }}."
       - name: Variable Secreta
         run: echo "El valor del valor secreto es ${{ secrets.PASSWORD }}"
+      - name: Listado de items del folder secreto
+        run: cd ${{ secrets.SECRET_FOLDER }}
+        run: ls
